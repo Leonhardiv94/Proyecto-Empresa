@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    padding: 3%;
+    background: #2B3032;
+}
+p,h5{
+    text-align: center;
+    padding: 2%;
+    
+}
+.text-justify{
+    text-align: justify;
+}
+body{
+    background-color: #EFF8F8;
+}
+.carousel-inner{
+    background-color: rgba(0, 0, 0, 0.507);
+}
+img{
+    margin: 5%
+}
+.carousel-item{
+    padding: auto;
+}
