@@ -312,7 +312,27 @@ iframe{
     background-size: auto;
     margin-top: 70px;
 }
+#primerTexto{
+    margin-top: 30px;
+}
+#numeroCel{
+    font-size: 40px;
+}
+.contactoBoton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
+    background-position: center;
+    width: 100%;
+    margin: 0px;
+}
+.icowhat{
+    width: 40px;
+    height: 40px;
+    background-position: center;
+}
 
 
 /* Responsividad CSS */
