@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>LeoPartes</title>
+    <link rel="icon" href="assets\logoFondo1.ico">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,24 +17,23 @@
   <body>
     <div id="menu" class="menu">
       <label for="idCheck">
-        <img class="imenu" src="assests/menu1.png" alt="menu">
+        <img class="imenu" src="assets/menu1.png" alt="menu">
       </label>
     </div>
     <input type="checkbox" class="check" id="idCheck">
     <nav class="navegacion">
-      <button type="button" class="btn" id="btnTamaño"><a href="#"><strong>INICIO</strong></a></button>
-      <button type="button" class="btn" id="btnTamaño"><a href="#"><strong>SERVICIOS</strong></a></button>
-      <button type="button" class="btn" id="btnTamaño"><a href="#"><strong>NOSOTROS</strong></a></button>
+      <button type="button" class="btn" id="btnTamaño"><a href="C:\Users\Leonhard\Documents\Proyectos GitHub\proyecto2\Proyecto-Empresa\index.html"><strong>INICIO</strong></a></button>
+      <button type="button" class="btn" id="btnTamaño"><a href="C:\Users\Leonhard\Documents\Proyectos GitHub\proyecto2\Proyecto-Empresa\servicios.html"><strong>SERVICIOS</strong></a></button>
+      <button type="button" class="btn" id="btnTamaño"><a href="C:\Users\Leonhard\Documents\Proyectos GitHub\proyecto2\Proyecto-Empresa\nosotros.html"><strong>NOSOTROS</strong></a></button>
       <button type="button" class="btn" id="btnTamaño"><a href="#"><strong>CONTACTO</strong></a></button>
-      
     </nav>
       <div class="nav"></div>
     <h1 class="card">LeoPartes</h1>
     <div class="carrusel">
       <div class="container">
-        <p class="textoIntro">La tienda especializada en computadoras y partes mas completa de colombia, en nuestra pagina
-            encontraras componentes para PC de una amplia variedad de marcas, para que siempre puedas obtener 
-            lo que desees, ya sea actualizar alguna parte de tu pc o armar uno tu mismo.
+        <p class="textoIntro">
+          Para cambiar tu pc, actualizarla, repararla o adquirir una nueva y hasta instalarle un software nuevo a tu PC... 
+          Pues aqui te ofrecemos en detalle todo lo que podemos hacer por ti.
         </p>
         <!--Aqui empieza el carrucel-->
         <div id="carouselExampleCaptions" class="carousel slide">
@@ -48,52 +48,53 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item active">
-              <center><img src="assests/board-carrusel.png" class= "img" class="d-block w-50" alt="..."></center>
+            <h3 id="carouselH">Hardware</h3>
+            <div id="carousel" class="carousel-item active">
+              <center><img src="assets/board-carrusel.png" class= "img" class="d-block w-50" alt="..."></center>
               <div class="carousel-caption d-none d-md-block"></div>
-                <h3><strong>Placas madre</strong></h3>
+                <h3>Placas madre</h3>
                 <p class="pBoton"><button type="button" class="btn" class="catalogo"><a href=""><strong>Mira nuestro catalogo de Boards aqui</strong></a></button></p>
             </div>
             <div class="carousel-item">
-              <center><img src="assests/procesador-carrusel.jpg" class= "img" class="d-block w-50" alt="..."></center>
+              <center><img src="assets/procesador-carrusel.jpg" class= "img" class="d-block w-50" alt="..."></center>
               <div class="carousel-caption d-none d-md-block"></div>
-                <h3><strong>Procesadores</strong></h3>
+                <h3>Procesadores</h3>
                 <p class="pBoton"><button type="button" class="btn" class="catalogo"><a href=""><strong>Mira nuestro catalogo de Procesadores aqui</strong></a></button></p>
             </div>
             <div class="carousel-item">
-              <center><img src="assests/memoria-carrusel.png" class= "img" class="d-block w-50" alt="..."></center>
+              <center><img src="assets/memoria-carrusel.png" class= "img" class="d-block w-50" alt="..."></center>
               <div class="carousel-caption d-none d-md-block"></div>
-              <h3><strong>Memorias RAM</strong></h3>
+              <h3>Memorias RAM</h3>
               <p class="pBoton"><button type="button" class="btn" class="catalogo"><a href=""><strong>Mira nuestro catalogo de Memorias RAM aqui</strong></a></button></p>
             </div>
             <div class="carousel-item">
-              <center><img src="assests/Discos-carrusel.jpg" class= "img" class="d-block w-50" alt="..."></center>
+              <center><img src="assets/Discos-carrusel.jpg" class= "img" class="d-block w-50" alt="..."></center>
               <div class="carousel-caption d-none d-md-block"></div>
-              <h3><strong>Almacenamientos NVMe SSD</strong></h3>
+              <h3>Almacenamientos NVMe SSD</h3>
               <p class="pBoton"><button type="button" class="btn" class="catalogo"><a href=""><strong>Mira nuestro catalogo de NVMe SSD aqui</strong></a></button></p>
             </div>
             <div class="carousel-item">
-              <center><img src="assests/torre-carrusel.jpg" class= "img" class="d-block w-50" alt="..."></center>
+              <center><img src="assets/torre-carrusel.jpg" class= "img" class="d-block w-50" alt="..."></center>
               <div class="carousel-caption d-none d-md-block"></div>
-              <h3><strong>Gabinetes</strong></h3>
+              <h3>Gabinetes</h3>
               <p class="pBoton"><button type="button" class="btn" class="catalogo"><a href=""><strong>Mira nuestro catalogo de Gabinetes aqui</strong></a></button></p>
             </div>
             <div class="carousel-item">
-              <center><img src="assests/graficas-carrusel.jpg" class= "img" class="d-block w-50" alt="..."></center>
+              <center><img src="assets/graficas-carrusel.jpg" class= "img" class="d-block w-50" alt="..."></center>
               <div class="carousel-caption d-none d-md-block"></div>
-              <h3><strong>Tarjetas de graficos</strong></h3>
+              <h3>Tarjetas de graficos</h3>
               <p class="pBoton"><button type="button" class="btn" class="catalogo"><a href=""><strong>Mira nuestro catalogo de Tarjetas Graficas aqui</strong></a></button></p>
             </div>
             <div class="carousel-item">
-              <center><img src="assests/fuente-carrusel.webp" class= "img" class="d-block w-50" alt="..."></center>
+              <center><img src="assets/fuente-carrusel.webp" class= "img" class="d-block w-50" alt="..."></center>
               <div class="carousel-caption d-none d-md-block"></div>
-              <h3><strong>Fuentes de poder</strong></h3>
+              <h3>Fuentes de poder</h3>
               <p class="pBoton"><button type="button" class="btn" class="catalogo"><a href=""><strong>Mira nuestro catalogo de Fuentes de poder aqui</strong></a></button></p>
             </div>
             <div class="carousel-item">
-              <center><img src="assests/monitor-carrusel.webp" class= "img" class="d-block w-50" alt="..."></center>
+              <center><img src="assets/monitor-carrusel.webp" class= "img" class="d-block w-50" alt="..."></center>
               <div class="carousel-caption d-none d-md-block"></div>
-              <h3><strong>Monitores</strong></h3>
+              <h3>Monitores</h3>
               <p class="pBoton"><button type="button" class="btn" class="catalogo"><a href=""><strong>Mira nuestro catalogo de Monitores aqui</strong></a></button></p>
             </div>
           </div>
