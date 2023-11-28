@@ -5,6 +5,7 @@ html,body{
 }
 .menu{
     position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: center;
     cursor: pointer;
