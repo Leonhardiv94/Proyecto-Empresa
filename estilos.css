@@ -7,16 +7,17 @@ html,body{
     position: absolute;
     position: fixed;
     display: flex;
-    flex-direction: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     width: 38px;
     height: 36px;
-    top: 0.7rem;
-    right: 0.3rem;
+    top: 0.2rem;
+    right: 0.2rem;
     transition: transform 0.5s;
     filter: invert(82%) sepia(58%) saturate(3409%) hue-rotate(128deg) brightness(101%) contrast(97%);
     z-index: 30;
-    
 }
 .menu:hover{
     filter: invert(65%) sepia(48%) saturate(6244%) hue-rotate(315deg) brightness(102%) contrast(98%);
